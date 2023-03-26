@@ -1,0 +1,50 @@
+.scoreboard {
+  background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .scoreboard {
+    text-align: center;
+  }
+  
+  .scoreboard > div > h2 {
+    margin-bottom: 5px;
+  }
+  
+  .game {
+    text-align: center;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .buttons button {
+    margin: 0 10px;
+  }
+  
+  .result {
+    margin-bottom: 20px;
+  }
+  
+  .game-result {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .game-result.winner {
+    background-color: green;
+  }
+  
+  .game-result.loser {
+    color: red;
+  }
+  
+  .game-result.tie {
+    color: orange;
+  }
